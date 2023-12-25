@@ -22,7 +22,7 @@ type=AVC msg=audit(1693833984.483:872): avc:  denied  { name_bind } for  pid=318
 [root@selinux ~]# systemctl status nginx
 ● nginx.service - The nginx HTTP and reverse proxy server
    Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)
-   Active: active (running) since Mon 2023-09-04 13:32:01 UTC; 6s ago
+   Active: active (running) since Mon 2023-09-28 13:32:01 UTC; 6s ago
   Process: 3394 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)
   Process: 3392 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)
   Process: 3391 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)
